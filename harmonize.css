@@ -5,7 +5,7 @@
  * 2. harmonize
  */
 
-/* @section 1. reset */
+/** @section 1. reset */
 
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, input, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, progress, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video
 {
@@ -48,7 +48,7 @@ table
 	border-spacing: 0;
 }
 
-/* @section 2. harmonize */
+/** @section 2. harmonize */
 
 button, input, select, textarea
 {
