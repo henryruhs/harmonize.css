@@ -10,8 +10,6 @@ harmonize.css
 Installation
 ------------
 
-NPM:
-
 ```
 npm install harmonize.css
 ```
