@@ -77,7 +77,8 @@ input[type="submit"]::-moz-focus-inner
 	border: 0;
 }
 
-button:focus
+button:focus,
+input:focus
 {
 	outline: 0;
 }
