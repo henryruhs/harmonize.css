@@ -84,6 +84,13 @@ input[type="submit"]::-moz-focus-inner
 	outline: 0;
 }
 
+input:invalid,
+select:invalid,
+textarea:invalid
+{
+	box-shadow: none;
+}
+
 button[disabled],
 input[disabled],
 input[readonly]
