@@ -92,6 +92,7 @@ select:invalid,
 textarea:invalid
 {
 	box-shadow: none;
+	outline: none;
 }
 
 button[disabled],
