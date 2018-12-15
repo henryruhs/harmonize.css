@@ -1,7 +1,7 @@
 {
 	"name": "harmonize.css",
 	"description": "Like normalize.css but without the bad parts",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"license": "GPL-3.0",
 	"keywords":
 	[
