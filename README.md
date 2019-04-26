@@ -13,3 +13,11 @@ Installation
 ```
 npm install harmonize.css
 ```
+
+
+Usage
+-----
+
+```css
+@import 'node_modules/harmonize.css/harmonize.css';
+```
