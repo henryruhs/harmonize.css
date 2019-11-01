@@ -48,6 +48,11 @@ table
 a
 {
 	color: inherit;
+}
+
+a,
+abbr
+{
 	text-decoration: none;
 }
 
