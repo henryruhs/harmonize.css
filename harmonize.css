@@ -38,7 +38,7 @@ ul
 ol,
 ul
 {
-	list-style-type: none;
+	list-style: none;
 }
 
 table
@@ -57,7 +57,11 @@ abbr
 	text-decoration: none;
 }
 
-dialog
+button,
+dialog,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]
 {
 	background: none;
 }
@@ -84,20 +88,21 @@ fieldset,
 select,
 textarea
 {
-	border: 0;
+	border: none;
 }
 
 button::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
+input[type="color"]::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner
 {
-	border: 0;
+	border: none;
 }
 
 :focus
 {
-	outline: 0;
+	outline: none;
 }
 
 input:invalid,
@@ -109,8 +114,7 @@ textarea:invalid
 }
 
 button[disabled],
-input[disabled],
-input[readonly]
+input[disabled]
 {
 	pointer-events: none;
 }
@@ -118,11 +122,6 @@ input[readonly]
 input[type="search"]
 {
 	border-radius: 0;
-}
-
-input[type="search"]::-ms-clear
-{
-	display: none;
 }
 
 input[type="search"],
