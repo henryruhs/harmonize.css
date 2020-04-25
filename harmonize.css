@@ -95,7 +95,8 @@ button::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="color"]::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner
+input[type="submit"]::-moz-focus-inner,
+progress
 {
 	border: none;
 }
