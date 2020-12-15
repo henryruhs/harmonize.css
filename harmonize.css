@@ -72,11 +72,6 @@ button
 	cursor: pointer;
 }
 
-input
-{
-	appearance: none;
-}
-
 button,
 input,
 select,
@@ -105,6 +100,13 @@ input[type="reset"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner
 {
 	border: none;
+}
+
+input[type="search"],
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration
+{
+	appearance: none;
 }
 
 [contenteditable]:focus,
