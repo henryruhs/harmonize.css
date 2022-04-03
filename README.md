@@ -15,8 +15,10 @@ npm install harmonize.css
 ```
 
 
-Usage
+Setup
 -----
+
+Import the `harmonize.css` file as needed:
 
 ```css
 @import 'node_modules/harmonize.css/harmonize.css';
