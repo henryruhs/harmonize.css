@@ -1,7 +1,7 @@
 {
 	"name": "harmonize.css",
 	"description": "Like normalize.css but without the bad parts",
-	"version": "4.1.2",
+	"version": "4.1.3",
 	"license": "MIT",
 	"keywords":
 	[
@@ -12,15 +12,15 @@
 	"author":
 	{
 		"name": "Henry Ruhs",
-		"url": "https://redaxmedia.com"
+		"url": "https://henryruhs.com"
 	},
 	"bugs":
 	{
-		"url": "https://github.com/redaxmedia/harmonize.css/issues"
+		"url": "https://github.com/henryruhs/harmonize.css/issues"
 	},
 	"repository":
 	{
 		"type": "git",
-		"url": "https://github.com/redaxmedia/harmonize.css.git"
+		"url": "https://github.com/henryruhs/harmonize.css.git"
 	}
 }
