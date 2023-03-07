@@ -52,11 +52,15 @@ abbr
 
 button,
 dialog,
-input[type="button"],
-input[type="reset"],
-input[type="submit"]
+input
 {
 	background: none;
+}
+
+input:-webkit-autofill
+{
+	transition: background;
+	transition-delay: 3600000s;
 }
 
 button
@@ -110,13 +114,6 @@ select:focus,
 textarea:focus
 {
 	outline: none;
-}
-
-input::placeholder,
-textarea::placeholder
-{
-	color: inherit;
-	opacity: 0.5;
 }
 
 input:invalid,
