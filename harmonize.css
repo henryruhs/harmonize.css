@@ -116,6 +116,12 @@ textarea:focus
 	outline: none;
 }
 
+input::placeholder,
+textarea::placeholder
+{
+	color: inherit;
+}
+
 input:invalid,
 select:invalid,
 textarea:invalid
