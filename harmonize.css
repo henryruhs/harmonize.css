@@ -100,6 +100,11 @@ input[type="submit"]::-moz-focus-inner
 	border: none;
 }
 
+input[type="range"]::-moz-range-thumb
+{
+	border: none;
+}
+
 input[type="search"],
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration
